@@ -1,0 +1,4 @@
+failure-threshold: warning
+ignored:
+  - DL3007 # Chainguard's free images are only published with the latest tag.
+  - DL3018 # Wolfi is a rolling distro that drops old package versions, so pins would break the build.
