@@ -1,5 +1,5 @@
 # renovate: datasource=github-releases depName=atuinsh/atuin
-ARG ATUIN_VERSION=v18.24.2
+ARG ATUIN_VERSION=v18.25.0
 
 FROM cgr.dev/chainguard/rust:latest-dev AS builder
 
